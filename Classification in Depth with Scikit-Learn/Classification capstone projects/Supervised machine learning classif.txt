@@ -1,0 +1,88 @@
+Supervised machine learning classification: Customer Churn prediction
+
+These are the major topics covered:
+
+Pre-requisites and Resources
+Data Collection and Problem Statement
+Exploratory Data Analysis with Pandas and NumPy
+Data Preparation using Sklearn
+Selecting and Training a few Machine Learning Models
+Cross-Validation and Hyperparameter Tuning using Sklearn
+Evaluate the Final Trained Model
+
+
+Data analysis
+Customer Churn prediction means knowing which customers are likely to leave or unsubscribe from any given service. For many companies, this is a very important prediction. This is because acquiring new customers often costs more than retaining existing ones. Once you’ve identified customers at risk of churn, you need to know exactly what marketing efforts you should make with each customer to maximize their likelihood of staying.
+
+Churn tells you how many existing customers are leaving your business, so lowering churn has a big positive impact on your revenue streams.
+
+
+
+The dataset you will be using contains the following features:
+
+rownumber: Row Numbers from 1 to 10000.
+customerid: A unique ID that identifies each customer.
+surname: The customer’s surname.
+creditscore: A credit score is a number between 300–850 that depicts a consumer's creditworthiness.
+geography: The country from which the customer belongs to.
+Gender: The customer’s gender: Male, Female
+Age: The customer’s current age, in years, at the time of being a customer.
+tenure: The number of years for which the customer has been with the bank.
+balance: Bank balance of the customer.
+numofproducts: the number of bank products the customer is utilizing.
+hascrcard: The number of credit cards given to the customer by the bank.
+isactivemember: Binary Flag for indicating if the client is active or not with the bank before the moment where the client exits the company (recorded in the variable "exited")
+Exited: Binary flag 1 if the customer closed the account with the bank and 0 if the customer is retained.
+
+
+
+
+The objective of this task is to evaluate the performance of a model that has been trained to predict if any given person would churn the bank account.
+
+To complete this project you should follow this steps:
+
+Data cleaning and exploration: Prepare the dataset for analysis by cleaning, imputing missing values, and exploring relationships between features and the target variable.
+
+Feature engineering: Identify and create new features that may be useful for predicting churn, such as time since last purchase or frequency of interactions with the company.
+
+Model selection and tuning: For this project you will use an XGBClassifier. XGBoost is a popular and efficient open-source implementation of the gradient boosted trees algorithm. Gradient boosting is a supervised learning algorithm, which attempts to accurately predict a target variable by combining the estimates of a set of simpler, weaker models. Optimize XGBClassifier hyperparameters using techniques such as cross-validation.
+
+Model evaluation: Evaluate the performance of the chosen model on the training and validation sets using appropriate metrics, such as accuracy, precision, recall, F1 score, and ROC curve analysis.
+
+
+Classification Model
+
+Train an XGBoost Classification model using the training data, and store the model in model.
+
+Calculate the accuracy of both the training and testing sets, and the macro-average precision, recall and F1-score of the testing set and run the code in a Jupyter Notebook.
+
+Store the results in the variables test_precision, test_recall and test_f1score.
+
+
+
+
+Test Data
+This dataset churn_test.csv contains only the features, without the target variable.
+
+You must reach a macro-average precision of 80%, recall of 75% or greater in the positive class to pass this assessment.
+
+
+
+XGBoost Tuning Parameters
+Hyperparameter tuning is a vital part of improving the overall behavior and performance of a machine learning model. It is a type of parameter that is set before the learning process and happens outside of the model.
+
+
+
+XGBoost: Tuning Parameters
+
+The RandomizedSearchCV() function takes in the following arguments:
+
+estimator: The estimator being fit, here it's XGBoost.
+param_distributions: Unlike params - this is the distribution of possible hyperparameters to use.
+cv: Number of cross-validation iterations
+n_iter: Number of hyperparameter combinations to choose from verbose: Prints more output
+
+
+
+
+

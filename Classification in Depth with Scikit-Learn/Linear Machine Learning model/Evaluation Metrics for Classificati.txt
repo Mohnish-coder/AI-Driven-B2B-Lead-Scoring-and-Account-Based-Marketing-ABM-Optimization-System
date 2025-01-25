@@ -1,0 +1,22 @@
+Evaluation Metrics for Classification
+
+What are Evaluation metrics?
+Evaluation metrics are used to measure the quality of the model. One of the most important topics in machine learning is how to evaluate your model. When you build your model, it is very crucial to measure how accurately it predicts your expected outcome.
+
+Define Confusion Matrix?
+Confusion Matrix: A confusion matrix is a table that summarizes the performance of a classifier by showing the number of true positive, true negative, false positive, and false negative predictions. It is useful to understand the strengths and weaknesses of a classifier, and also provides information about the distribution of errors made by the classifier
+
+What is Accuracy?
+This metric is defined as the ratio of correctly predicted instances to the total number of instances in the dataset. It measures how often the classifier is correct. However, it can be misleading in imbalanced datasets, as it may give high accuracy scores even if the classifier is not able to accurately predict the minority class
+
+What is Precision?
+Precision is the ratio of correctly predicted positive instances to the total number of instances predicted as positive. It is a measure of the classifier's ability to correctly identify positive instances and avoid false positives.
+
+What is Recall(or Sensitivity)?
+Recall is the ratio of correctly predicted positive instances to the total number of actual positive instances. It is a measure of the classifier's ability to detect all positive instances.
+
+What is F1 Score?
+The F1 Score is the harmonic mean of precision and recall. It balances precision and recall and gives an overall performance score for the classifier.
+
+Why is this Useful?
+It is crucial to use multiple evaluation metrics to evaluate a model, as a model may perform well using one metric but poorly using another. This highlights the importance of using multiple evaluation metrics to gain a comprehensive understanding of a model's performance. Using multiple evaluation metrics helps ensure that the model is operating correctly and optimally.

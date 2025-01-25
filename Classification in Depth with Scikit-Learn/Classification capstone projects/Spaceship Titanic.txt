@@ -1,0 +1,53 @@
+Spaceship Titanic
+
+Spaceship Titanic Dataset
+The Spaceship Titanic dataset on Kaggle is a dataset that can be used for classification problems, where the goal is to predict if a passenger are transported to an alternate dimension or not.
+
+To work with this dataset, we can use machine learning algorithms. Then we will evaluate the performance of the model on a separate testing dataset to determine its accuracy and determine areas for improvement.
+
+Attribute Information:
+
+Feature	Description
+PassengerId	The unique identifier for each passenger on the Spaceship Titanic.
+HomePlanet	The planet of origin for each passenger.
+CryoSleep	Indicates whether the passenger elected to be put into suspended animation for the voyage.
+Cabin	The cabin number where the passenger is staying.
+Destination	The planet the passenger will be debarking to.
+Age	The age of each passenger.
+VIP	Whether the passenger has paid for special VIP service during the voyage.
+RoomService	The amount the passenger has billed for room service on the Spaceship Titanic.
+FoodCourt	The amount the passenger has billed for food at the Spaceship Titanic's food court.
+ShoppingMall	The amount the passenger has billed for shopping at the Spaceship Titanic's shopping mall.
+Spa	The amount the passenger has billed for services at the Spaceship Titanic's spa.
+VRDeck	The amount the passenger has billed for use of the virtual reality deck on the Spaceship Titanic.
+Name	The name of each passenger.
+Transported	Indicates whether the passenger was transported to another dimension. This is the target variable.
+
+Import the necessary libraries and load the dataset:
+You will need to import pandas and numpy for data manipulation, matplotlib and seaborn for data visualization, train_test_split from sklearnmodel_selection for splitting the data into training and testing sets. You can import all the libraries that you think will be required or can import it as you go along.
+
+Load the data train.csv in the notebook using the pandas library.
+
+
+
+
+Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA) is an approach to analyzing and understanding data through visualizations and statistical methods. The main objective of EDA is to uncover patterns, relationships, and insights in the data that can inform future analysis and decision-making.
+
+To complete this assignment, please follow these instructions:
+
+Preprocess the data: Analyze the data to understand its distribution, identify any missing values or outliers, and get a general sense of the data. This helps to identify potential issues that need to be addressed and provides insights into the data that can inform the modeling process.
+
+Visualization helps in understanding the underlying patterns and relationships in the data. It makes it easier to identify outliers, distributions, and relationships between different features.
+
+Prepare the dataset: Drop both PassengerId and Name columns as they are not necessary for model training.
+
+Splitting 'Cabin': The column 'Cabin' can be expanded to into 3 separate columns to denote the deck, number, and side.'CabinDeck' and 'CabinSide' can be later encoded.
+
+Feature Encoding: Let's handle the nominal columns using one-hot encoding.
+
+
+
+Train and Test
+To this assignment, you could work with any of the models presented previously like, decision tree, KNN, Random Forest, XGBoost or any other emsanble model. However, deep learning model are not allow.
+

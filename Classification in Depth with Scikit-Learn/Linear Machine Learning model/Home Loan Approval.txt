@@ -1,0 +1,21 @@
+Home Loan Approval
+
+Let's imagine that you work in a company which wants to automate the loan eligibility process (real-time) based on customer detail provided while filling out the online application form. These details are Gender, Marital Status, Education, Number of Dependents, Income, Loan Amount, Credit History and others. To automate this process, they have given a problem identifying the customer segments eligible for loan amounts to target these customers specifically.
+
+What is the target variable?
+Loan_Status
+
+How many null values are present in the dataset?
+10% of the dataset
+
+What is Feature Engineering?
+Effective feature engineering is based on sound knowledge of the business problem and the available data sources.
+
+A machine learning algorithm needs to be able to understand the data it receives. There are plenty of methods to encode categorical variables into numeric and each method comes with its advantages and disadvantages.
+
+Which is the correct way to encode a variable?
+If a categorical variable with categories is ordinal, then one common encoding method is to use label encoding. Label encoding assigns a numerical value to each category based on its position in the ordering.
+If the variable is gender and the categories are male and female, the binary encoding would use a 0 to represent male and a 1 to represent female, or vice versa.
+
+What is the goal of the Model?
+The goal of this model is to help lenders make more informed decisions when approving or denying loan applications. By identifying high-risk applicants, lenders can take appropriate measures to minimize the risk of default and ensure that loans are granted to individuals who are most likely to repay them.

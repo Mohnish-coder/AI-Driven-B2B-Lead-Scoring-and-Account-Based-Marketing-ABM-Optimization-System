@@ -1,0 +1,47 @@
+Introduction to Ensemble Learning and Bagging
+
+What is Ensemble Learning?
+Ensemble learning is a general meta-approach to machine learning that seeks better predictive performance by combining the predictions from multiple models.
+
+
+What Is Bagging in Machine Learning?
+Bagging, also known as bootstrap aggregation, is the ensemble learning method that is commonly used to reduce variance within a noisy dataset. It is used to deal with bias-variance trade-offs and reduces the variance of a prediction model. Bagging avoids overfitting of data and is used for both regression and classification models, specifically for decision tree algorithms.
+
+
+Define Bootstrapping?
+Bootstrap is a general tool for assessing statistical accuracy.
+The bootstrap approach allows us to use a computer to emulate the process of obtaining new sets of samples so that we can estimate the variability that interests us without generating samples additional.
+
+
+What is Bagging Classifier?
+The idea is to repeatedly sample observations from the training set with replacement and use each observation as a 'bootstrap sample' to fit different estimators.
+
+
+What are the steps for Bagging Classifier?
+The training data sets consist of data samples represented using different colors.
+Random samples are drawn with replacement, which means that each sample may contain duplicate data.
+Each sample is used to train different estimators, such as classifiers 1, 2, ..., and n.
+An ensemble classifier is created which takes the predictions from different classifiers and makes the final prediction based on voting or averaging, respectively.
+
+
+What are the Advantages of Bagging?
+Bagging decreases the variance of a single estimate as they combine several estimates from different models. So, a natural way to reduce the variance is to take many training sets from a population, build a separate prediction model using each training set, and average the resulting predictions.
+
+By combining the predictions of multiple models, bagging can improve the overall accuracy of a model. This is especially true for models that are inherently unstable, such as decision trees.
+
+Bagging can help improve the robustness of a model to outliers and noise in the data. By training multiple models on different subsets of the data, bagging can help reduce the influence of individual outliers or noisy samples on the overall prediction.
+
+
+What are the parameters used in BaggingClassifier()?
+Base_estimator: This represents the algorithm used as the base/weak learners. We will use the DecisionTreeClassifier algorithm as our weak/base learners.
+n_estimators This represents the number of weak learners used. We will use 100 decision trees to build the bagging model.
+random_state: Allows us to reproduce the same dataset samples.
+bootstrap_features: Whether features are drawn with replacement.
+
+
+What is Out-of-Bag Error Estimation?
+In bootstrapping we sample with replacement, and therefore not all observations are used for each bootstrap sample. On average 1/3 of them are not used!
+
+We call them out-of-bag samples (OOB)
+
+We can predict the response for the ith observation using each of the trees in which that observation was OOB and do this for n observations

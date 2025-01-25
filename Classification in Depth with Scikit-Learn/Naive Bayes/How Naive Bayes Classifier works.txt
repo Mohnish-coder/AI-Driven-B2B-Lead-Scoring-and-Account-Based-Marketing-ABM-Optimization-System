@@ -1,0 +1,26 @@
+How Naive Bayes Classifier works?
+
+What is Naive Bayes Classifier?
+Naive Bayes is a probabilistic classification algorithm that is commonly used in machine learning. It is based on the Bayes theorem, which describes the probability of an event based on prior knowledge of conditions that might be related to the event. In simple terms, Naive Bayes makes predictions by calculating the probability of each class based on the values of the input features. In other words, it assumes that there is no interaction or correlation between any two features.
+
+What is Bayes' theorem?
+Bayes' theorem is a fundamental concept in probability theory, which describes the probability of an event based on prior knowledge of conditions that might be related to the event. 
+
+Bayes' theorem establishes a connection between the degree of belief in a statement before and after taking into account the available evidence. For instance, imagine that there is a 50% chance that a coin will land heads twice as often as tails. If the coin is flipped several times, and the outcomes are observed, the degree of belief will likely shift, but it could also remain the same, depending on the results.
+
+What is the assumption made by Naive Bayes?
+Naive Bayes makes a simplifying assumption that the features are conditionally independent given the class variable.
+The naive assumption of independence allows us to estimate these conditional probabilities using simple frequency counts or other statistical techniques, without having to estimate the joint probability distribution of all the features.
+
+Define types of Naive Bayes Classifier?
+There are three main types of Naive Bayes classifiers: Gaussian Naive Bayes, Bernoulli Naive Bayes, and Multinomial Naive Bayes.
+
+Gaussian Naive Bayes: Assumes that the features are normally distributed and calculates the probability density function for each feature for each class.
+
+Bernoulli Naive Bayes: Assumes that the input features are binary (i.e., they take on only two values), and calculates the probability of each class given the presence or absence of each feature.
+
+Multinomial Naive Bayes: Assumes that the input features are counts of occurrences of different events (e.g., the number of times a word appears in a document), and calculates the probability of each class given the frequency of each feature.
+
+
+What is Decision Boundary?
+Naive Bayes is a probabilistic model that calculates the probability of a data point belonging to each class, based on its feature values. The decision boundary is then determined by comparing these probabilities and assigning the data point to the class with the highest probability.

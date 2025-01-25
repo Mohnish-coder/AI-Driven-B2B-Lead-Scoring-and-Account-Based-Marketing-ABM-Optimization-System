@@ -1,0 +1,18 @@
+What is K-nearest neighbors (KNN)?
+
+K-nearest neighbors (KNN) are a typical example of a lazy learner. It's called lazy because it doesn't learn a discriminative function from the training data but memorizes the training dataset instead.
+
+What is Euclidean Distance?
+In the Euclidean plane, let point et point p have Cartesian coordinates(p1,p2) and let point q have coordinates(q1,q2). Then the distance between p and q is given by
+d(p,q)=root((q1-p1)^2+(q2-p2)^2)
+
+What is Hyperparameter?
+A hyperparameter is a machine learning parameter whose value is chosen before a learning algorithm is trained.
+In a k-nearest neighbors (KNN) model, "k" is a hyper-parameter that specifies the number of nearest neighbors to consider when making a prediction for a new data point.
+
+What is goal of supervised learning?
+A goal of supervised learning is to build a model that performs well on new data. Train test split is a model validation procedure that allows you to simulate how a model would perform on new/unseen data.
+This consists of random sampling without replacement of about 75 percent of the rows (you can vary this) and putting them into your training set. The remaining 25 percent is put into your test set.
+
+k-NN algorithm does more computation on test time rather than train time?
+Yes

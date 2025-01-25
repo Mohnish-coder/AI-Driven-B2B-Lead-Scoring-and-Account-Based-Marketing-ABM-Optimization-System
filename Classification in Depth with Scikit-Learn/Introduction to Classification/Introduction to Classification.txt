@@ -1,0 +1,58 @@
+Introduction to Classification
+
+What is Classification?
+Classification is a subcategory of supervised learning where the goal is to predict the categorical class label of new instances based on past observations.
+
+What is Binary Classification?
+Binary classification, meaning that N=2 (where N is a number of classes).
+
+What is Simple Classification algorithm?
+we can define a simple classification:
+
+If X2 is higher than 2 the new point corresponded to the blue group.
+
+If X2 is lower than 2 the point corresponded to the red group.
+
+What is Decision Tree?
+Decision Trees are a type of Supervised Machine Learning where the data is continuously split according to a certain parameter. The tree can be explained by two entities, namely decision nodes, and leaves. The leaves are the decisions or the outcomes, and the decision nodes are where the data is split. Each split is based on a specific feature and threshold, and it determines the class or outcome associated with specific range of feature values.
+
+What is Decision Rule?
+A decision rule is a set of conditions or criteria that a classifier uses to assign class labels to instances in a dataset. The decision rule defines how the model makes predictions based on the features of the data.
+
+How to train a model in machine learning?
+The process of training an Machine Learning (ML) model involves providing an ML algorithm with training data to learn from. The term ML model refers to the model artifact that is created by the training process
+
+The training data must contain the correct answer, which is known as a target. The learning algorithm finds patterns in the training data that map the input data attributes to the target (the answer that you want to predict), and it outputs an ML model that captures these patterns.
+
+What is Decision Boundary?
+
+The decision boundary is the region of a problem space in which the output label of a classifier is ambiguous.
+
+If the decision surface is a hyperplane, then the classification problem is linear, and the classes are linearly separable. Decision boundaries are not always clear-cut.
+
+What is the percentage of instances well classified by the model?
+
+To answer this, we will use the predict method on the entire dataset x. Then, using the accuracy_score function, we can calculate the percentage of correct predictions by comparing our y_pred prediction to the original class. It's advisable to review the documentation of this function, but for now, we will simply state that it is one of the many metrics used to evaluate our models.
+
+Define Confusion Matrix?
+The confusion matrix is a table with 4 different combinations of predicted and actual values.
+
+True Positive:
+
+You predicted a positive class and it’s true.
+You predicted a red point and it is.
+True Negative:
+
+You predicted a negative class and it’s true.
+You predicted that a point is not red and it is not.
+False Positive:
+
+You predicted a positive class and it’s false.
+You predicted a red point but it is blue.
+False Negative:
+
+You predicted a negative class and it’s false.
+You predicted a blue point but it is actually red.
+
+In which phase are model parameters adjusted?
+Training phase

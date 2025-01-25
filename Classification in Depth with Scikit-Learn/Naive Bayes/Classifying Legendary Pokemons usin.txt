@@ -1,0 +1,18 @@
+Classifying Legendary Pokemons using Naive Bayes and Decision Trees
+
+What is Feature Selection?
+Feature selection is the process of reducing the number of input variables when developing a predictive model.
+It is desirable to reduce the number of input variables to both reduce the computational cost of modeling and, in some cases, to improve the performance of the model.
+
+What is Bernoulli Naive Bayes Classifier?
+Model assumes that all the features are binary. It is used to classify data into two categories, such as spam and non-spam emails. 
+
+What is Decision Tree Classifier?
+Decision tree classifier is a supervised learning algorithm used for classification problems. It works by creating a tree-like structure of decisions and their possible consequences, including the results of those decisions.
+
+Explain analyze variable importance?
+Due to the greedy nature of Decision Trees, they are able to highlight which features are most important deciding factor in a model when classifying.
+
+By understanding which features are most important, we can focus our effort on improving those features or developing new features that may be more predictive.
+
+Scikit-learn has a feature_importances_ parameter which can measure features importance by looking at how much that feature reduces entropy in the classifier on average. It scales the results so that the sum of all importances is equal to 1.

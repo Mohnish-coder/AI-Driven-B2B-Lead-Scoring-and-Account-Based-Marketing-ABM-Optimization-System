@@ -1,0 +1,34 @@
+Binary Classification: Programming Exercise
+
+Decision tree classification
+
+For this implementation uses a decision tree classifier to predict the label of a fruit based on its color and weight. The data is stored in a pandas DataFrame and split into training and testing sets. The classifier is trained on the training data, and its accuracy is tested on the testing data.
+
+Remember to encode the variable 'color' using, for example, 'get_dummies'. The models only understand numbers, not words or strings.
+
+Split the dataset by using the function train_test_split(). You need to pass 3 parameters features, target, and test_set size. Split the dataset 30% test and 70% train and set using a random state=0. Store output of the split in X_train, Y_train, X_test and Y_test.
+
+Then implement the decision tree using only random_state=0. Store the model in the variable cf, and finnaly estimate the accuracy of the model using the test dataset.
+
+
+K-NN classification model
+
+We continue working with previous dataset, but for this task train a KNN classifier to predict the label of a fruit based on its color and weight.
+
+Split the dataset by using the function train_test_split(). You need to pass 3 parameters features, target, and test_set size. Split the dataset 30% test and 70% train and set using a random state=0. Store output of the split in X_train, Y_train, X_test and Y_test. Remember that KNN is sensitive to the scale of the features, so you should use StandardScaler to standardize the features and store the results in the variables X_train_scaler and X_test_scaler.
+
+Then implement the KNN using the argument for default. Store the model in the variable knn, and finnaly estimate the accuracy of the model using the test dataset.
+
+
+What are the advantages of the decision tree?
+Decision trees are easy to visualize
+Less Data Preparation
+
+A student has a dataset with 500 data points that he want to use to train a KNN classifier. He trains 4 kNN classifiers (k={1,3,5,10}) using all the data points. Then you randomly select 300 data points from the 500, and classify them using each of the 4 classifiers.
+
+Which classifier will come out as the best one?
+k=1
+
+
+KNN is an instance-based algorithm, which means that it does not need to train a model before making predictions.
+The advantages of Decision Trees include their interpretability, versatility, and feature selection capabilities.

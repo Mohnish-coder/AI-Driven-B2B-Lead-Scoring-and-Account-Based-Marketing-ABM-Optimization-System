@@ -1,0 +1,7 @@
+How to code a decision tree in Python from scratch ?
+
+What is Gini Index?
+The Gini index measures the probability of misclassifying a randomly chosen element from the set, and it ranges from 0 (perfectly pure) to 1 (maximally impure). A split with a lower Gini index is considered better than a split with a higher Gini index.
+
+The minimum value of the Gini Index is 0. This happens when the node is pure, this means that all the contained elements in the node are of one unique class. Therefore, this node will not be split again. Thus, the optimum split is chosen by the features with less Gini Index. Moreover, it gets the maximum value when the probability of the two classes are the same.
+

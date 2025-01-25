@@ -1,0 +1,19 @@
+Binary Claasification
+
+What is Binary Classification?
+Binary classification is a type of supervised learning in which the goal is to predict one of two possible outcomes, often represented by 0 and 1, for each input instance. It's a simple form of classification where the target variable has only two classes. Examples of binary classification problems include spam detection, sentiment analysis, and disease diagnosis. In these problems, the algorithm tries to learn the relationship between the input features and the target classes and then applies that relationship to new data to make predictions.
+
+What is Stroke? 
+Stroke is a leading cause of death and disability worldwide. Early detection and treatment of stroke can greatly improve the outcome and reduce its impact. In the field of medical diagnosis, machine learning techniques have shown promising results in the detection and diagnosis of various diseases, including stroke.
+
+Define EDA and what is main objective?
+Exploratory Data Analysis (EDA) is an approach to analyzing and understanding data through visualizations and statistical methods. The main objective of EDA is to uncover patterns, relationships, and insights in the data that can inform future analysis and decision-making.
+
+What do you mean by Preprocess the data?
+Analyze the data to understand its distribution, identify any missing values or outliers, and get a general sense of the data. This helps to identify potential issues that need to be addressed and provides insights into the data that can inform the modeling process.
+
+What is the purpose of calculating a correlation matrix?
+To determine which variables are related to each other.
+
+What does a value of -1 in a correlation matrix indicate?
+Perfect negative linear relationship between two variables.

@@ -1,0 +1,13 @@
+Logistic Regression
+
+What is Logistic Regression?
+Logistic Regression is a statistical method that is used to predict a binary outcome (1 / 0, Yes / No, True / False) given a set of independent variables and perform very well on linearly separable classes. It is a type of Generalized Linear Model (GLM) that is often used for predicting a categorical response.
+
+Define Logistic Function?
+The logistic function, also known as the sigmoid function, is a mathematical function that takes in any real input and maps it to a value between 0 and 1. 
+
+What is p-value?
+The p-value is a measure of the significance of each independent variable in relation to the dependent variable. It is used to determine whether there is a statistically significant relationship between an independent variable and the dependent variable. The p-value is calculated for each independent variable in the model.
+
+How the Coefficient of the Logistic Regression obtained?
+In scikit-learn, the coefficients of the logistic regression model can be obtained using the coef_ attribute of the fitted logistic regression object.

@@ -1,0 +1,14 @@
+Different types of Cross-validation in Machine Learning
+
+What is K-Fold Cross-Validation?
+In K-Fold cross-validation, the available data is divided into k equally sized subsets or folds, where k is a positive integer.
+
+The model is then trained on k-1 of the folds and evaluated on the remaining fold. This process is repeated k times, with each fold serving as the test set exactly once. The final performance of the model is then calculated as the average of the performance across all k folds.
+
+K-Fold cross-validation helps to mitigate overfitting by testing the model's performance on multiple independent subsets of the data. It is a useful tool for evaluating the effectiveness of a machine learning model before it is applied to new data.
+
+What is cross_val_score?
+cross_val_score() is a function in scikit-learn that performs K-Fold cross-validation and returns the evaluation metric (e.g., accuracy, mean squared error) for each fold. It takes as input an estimator (a model or pipeline), the input data (features) and output data (targets), the number of folds (cv), and optionally, any other desired parameters for the estimator.
+
+This function is a convenient way to perform cross-validation and get the cross-validation score for a given estimator and dataset.
+

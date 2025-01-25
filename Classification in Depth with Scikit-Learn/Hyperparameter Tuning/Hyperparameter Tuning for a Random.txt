@@ -1,0 +1,19 @@
+Hyperparameter Tuning for a Random Forest Classifier
+
+What is Hyperparameter Optimization?
+In machine learning, hyperparameter optimization or tuning is the problem of choosing a set of optimal hyperparameter for a learning algorithm. A hyperparameter is a parameter whose value is used to control the learning process. By contrast, the values of other parameters (typically node weights) are learned.
+
+What is balanced dataset?
+A balanced dataset is important in machine learning because it ensures that the model is not biased towards any particular class.
+
+What are the most used methods for hyperparameter optimization in ML?
+Grid Search (GS) and Randomized Grid-Search (RGS) are the two most used methods for hyperparameter optimization in Machine Learning
+
+
+Difference between Grid Search and Random Search?
+Grid search is a process that searches exhaustively through a manually specified subset of the hyperparameter space of the targeted algorithm.
+Random search, on the other hand, selects a value for each hyperparameter independently using a probability distribution.
+
+Random search is an alternative to grid search for hyperparameter tuning that has several advantages over grid search.
+
+Random search involves randomly sampling hyperparameters from a continuous or discrete distribution, evaluating each set of hyperparameters, and selecting the set that yields the best performance on a validation set.

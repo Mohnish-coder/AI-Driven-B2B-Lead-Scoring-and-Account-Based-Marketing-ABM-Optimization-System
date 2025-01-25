@@ -1,0 +1,31 @@
+Overfitting and Underfitting
+
+What is Overfitting?
+Overfitting is a common problem in machine learning, where a model performs well on training data but does not genealize well to unseen data (test data). In this cases, we also said that the model has a high variance.
+
+What is Validation Curve?
+A validation curve is a diagnostic tool used to evaluate the performance of a classifier for different values of a hyperparameter.
+
+Based on the accuracy values obtained, we can draw the following conclusion:
+
+"For models with high bias, the performance on the validation set is similar to the performance on the training set."
+
+"For models with high variance, the performance on the validation set is significantly different from the performance on the training set."
+
+
+What is Underfitting?
+Underfitting occurs when the decision tree is too simple to capture the underlying patterns in the data, resulting in poor performance on both training and validation data. This often happens when the tree is too shallow, has few branches, or has a small maximum depth limit.
+
+When overfit occurs?
+Overfitting occurs when the decision tree is too complex and fits the training data too well, capturing even the noise and random fluctuations in the data. This results in an excellent performance on the training data but poor performance on validation and new data. This often happens when the tree is too deep, has too many branches, or has a large maximum depth limit.
+
+For decision tree, what used to control the tradeoff between under-fitting and over-fitting?
+Max_depth parameter
+
+The optimal maximum depth is usually at the point where the accuracy is highest.
+
+What is Regularization parameter in Logistic Regression
+In logistic regression, the C coefficient is a parameter in the regularization term of the cost function. The regularization term helps to prevent overfitting by adding a penalty term to the cost function that discourages large values of the model's coefficients. The C coefficient is used to control the strength of the regularization term.
+
+Relation between C and Strength?
+The C parameter in scikit-learn is the inverse of regularization strength.

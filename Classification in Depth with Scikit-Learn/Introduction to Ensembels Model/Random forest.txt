@@ -1,0 +1,15 @@
+Random forest
+
+What is Random Forset?
+Random forest is a machine learning algorithm that is commonly used for classification and regression tasks. It is an ensemble learning method that constructs multiple decision trees at training time and outputs the mode or mean prediction of the individual trees as the final prediction.
+Random Forest and bagging are both ensemble learning techniques that involve building multiple models and combining their outputs to improve predictive accuracy.
+
+
+Difference between Bagging and Random Forest?
+Bagging is a general technique that reduces the variance of a single machine learning model by training multiple models on random subsets of the training data, while Random Forest is a specific type of bagging that is designed for decision trees and reduces overfitting and improves model diversity by using feature and data subsets. Overall, Random Forest is often more accurate than bagging for decision tree models due to its additional techniques and improved performance.
+
+What is the idea behind Random Forest?
+The basic idea behind random forest is to create a large number of decision trees, each one based on a random subset of the features and training data. This randomness helps to reduce overfitting, which is a common problem in decision tree models.
+
+What is Feature Importance?
+Feature importance is a measure of how much each feature contributes to the accuracy of the model. Random Forest provides an easy way to calculate feature importance by computing the average decrease in the impurity measure (typically Gini impurity or information gain) of the tree nodes that use the feature. The importance score for each feature is then normalized so that the sum of all scores is equal to 1.

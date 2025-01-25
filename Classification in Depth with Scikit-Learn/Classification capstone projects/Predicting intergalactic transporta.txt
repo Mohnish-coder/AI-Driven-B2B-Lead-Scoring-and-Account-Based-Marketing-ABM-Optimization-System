@@ -1,0 +1,25 @@
+Predicting intergalactic transportations with Spaceship Titanic
+
+The Spaceship Titanic was an interstellar passenger liner launched a month ago. But due to an unexpected malfunction, some of the passengers got transported to a different Galaxy!
+
+The Data
+Start your lab and take a look at the data we're loading from spaceship_passengers.csv. The target variable is called Transported and it indicates (True/False) if the passenger has been mistakenly transported to a different dimension or not.
+
+Syntax	Description
+PassengerId	A unique Id for each passenger
+Name	The first and last names of the passenger
+HomePlanet	The planet the passenger departed from
+CryoSleep	Indicates whether the passenger elected to be put into suspended animation for the duration of the voyage
+Destination	The planet the passenger will be debarking to
+Age	The age of the passenger
+VIP	Whether the passenger has paid for special VIP service during the voyage
+RoomService	Amount the passenger has been billed for this service
+FoodCourt	Amount the passenger has been billed for this service
+ShoppingMall	Amount the passenger has been billed for this service
+Spa	Amount the passenger has been billed for this service
+VRDeck	Amount the passenger has been billed for this service
+CabinDeck	Passenger's cabin deck
+CabinNumber	Passenger's cabin number
+CabinSide	Passenger's cabin side, can be either P for Port or S for Starboard
+Transported	Whether the passenger was transported to another dimension or not
+
