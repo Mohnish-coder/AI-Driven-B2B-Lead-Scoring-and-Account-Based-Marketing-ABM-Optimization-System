@@ -1,0 +1,18 @@
+Practice Matplotlib with Business sales analysis
+
+Business sales analysis
+This project will put in practice relationship plots using business sales data.
+
+Our dataset is an intriguing collection of sales records from various divisions of a business. It includes vital information such as:
+
+division: Different segments of the business, such as Computer Hardware, Office Supplies, and Printers.
+level of education: The educational qualifications of employees, ranging from associate's degrees to higher levels.
+training level: The extent of professional training received by employees.
+work experience: The number of years employees have spent in their professional careers.
+salary: The compensation awarded to employees.
+sales: The sales figures achieved by each division.
+
+What is the objective?
+The primary goal of this project is to analyze and understand how different factors, such as educational background, training level, and work experience, influence sales performance across different business divisions.
+
+The key requirement is to keep the default figure size, color, label, and title settings unmodified.

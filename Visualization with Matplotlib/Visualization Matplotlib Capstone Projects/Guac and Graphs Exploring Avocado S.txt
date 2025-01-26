@@ -1,0 +1,31 @@
+Guac and Graphs: Exploring Avocado Sales through Visualizations
+
+Imagine being able to track how the popularity of this green gem varies from region to region and from year to year. How do prices fluctuate? Which types of bags do customers prefer? This dataset holds the answers, and with Matplotlib, you’ll transform these raw numbers into eye-opening visual insights.
+
+Unnamed: 0:This is an index column from the dataset.
+
+Date:The date when the data was recorded.
+
+AveragePrice:The average price of avocados (in dollars) on the given date.
+
+Total Volume:The total quantity of avocados sold on the given date. This includes all types and sizes of avocados combined.
+
+4046:The volume of a specific type of avocado identified by the PLU (Price Look-Up) code 4046, which generally represents small-sized avocados.
+
+4225:The volume of avocados identified by the PLU code 4225, which typically corresponds to medium-sized avocados.
+
+4770:The volume of avocados identified by the PLU code 4770, often representing large-sized avocados.
+
+Total Bags:The total number of avocado bags sold. This includes all sizes of bags that contain avocados
+
+Small Bags:The volume of avocados sold in small bags.
+
+Large Bags:The volume of avocados sold in large bags.
+
+XLarge Bags:The volume of avocados sold in extra-large bags.
+
+type:The type of avocado, which can be either conventional or organic.
+
+year:The year in which the data was recorded.
+
+region:The geographical region where the sales data was collected.

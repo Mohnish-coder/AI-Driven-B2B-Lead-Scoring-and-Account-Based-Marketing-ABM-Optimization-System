@@ -1,0 +1,15 @@
+Introduction to Advanced Plot Positioning Techniques in Data Visualization
+
+Introduction to Advanced Plot Positioning Techniques in Data Visualization
+Effective data visualization is not just about creating individual plots; it's also about how these plots are positioned, sized, and organized to convey information clearly and compellingly. In this project, we delve into the world of advanced plot positioning, exploring the myriad of possibilities available for managing plot sizes, constructing multi-graphic grids, and other positioning techniques.
+
+Size of plots
+As it has been seen so far, the default size of the graphics rendering may not always be adequate (generally, excessively small if the number of elements in the graphic is high).
+
+In order to modify the size of the resulting graph, as we have seen, matplotlib offers us the function figure and the attribute figsize. Keep in mind that the size of the graph must be set prior to calling any of the pyplot functions.
+
+Multiple plots
+In matplotlib, to have multiple graphics within the same plot, we have to define the dimensions of the grid in which we will paint each graph and we have to manually place each figure in the place that corresponds to him.
+
+Subplots
+In addition to enabling the positioning of graphics in the form of a grid, matplotlib allows us to include one graphic within another, so that we take advantage of the empty areas of a graphic to show additional information.

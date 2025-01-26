@@ -1,0 +1,6 @@
+When Is It Wrong to Use Scatter or Line Plots?
+
+Does the scatter plot successfully reveal any significant patterns or relationships from the previous activity?
+No
+
+Line plots are typically used to show trends and changes over a continuous range, such as time. When applied to categorical data that has no inherent order, line plots can create misleading impressions of trends or relationships.

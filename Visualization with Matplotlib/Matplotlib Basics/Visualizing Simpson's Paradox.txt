@@ -1,0 +1,12 @@
+Visualizing Simpson's Paradox
+
+What is Simpson's Paradox?
+Simpson's Paradox is a statistical phenomenon where the direction or strength of an association between two variables changes when the data is divided into sub-groups. This paradox highlights the importance of considering the impact of confounding variables and the necessity of interpreting data cautiously.
+
+Objective of Simposon's Paradox?
+The objective of this project is to understand Simpson's Paradox and its implications using data visualization with Matplotlib.
+
+"Don't worry if you don't fully understand the code right now. We will progress step by step, and you'll learn how to create different charts as we explore this project. The main focus here is to grasp the importance of data visualization and how it can unveil valuable insights."
+
+What do you ineterpret from Simpson's Paradox?
+Simpson's Paradox reminds us that the interpretation of data can be more complex than it appears at first glance. Associations between variables can change when considering sub-groups, and the presence of confounding variables can lead to unexpected results. Data visualization plays a crucial role in uncovering and understanding such paradoxes in real-world data analysis.

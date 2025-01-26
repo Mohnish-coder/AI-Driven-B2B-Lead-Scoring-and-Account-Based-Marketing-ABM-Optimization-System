@@ -1,0 +1,5 @@
+Global Population Insights: Visualising Trends and Demographics in 2023
+
+The global population in 2023 has soared to a staggering 8 billion, marking a pivotal milestone in human history. This unprecedented growth brings with it significant implications for resource management, urban planning, and global sustainability. As rapid urbanization accelerates, demographics shift, and societal needs evolve, understanding these population trends is more crucial than ever. This project explores these dynamics, offering insights into how factors such as age distribution, fertility rates, and migration patterns are not only reshaping regions but also redefining the future of our interconnected world.
+
+and the y-axis represents the values

@@ -1,0 +1,3 @@
+Understanding Crime Through Visualizations with Matplotlib
+
+This project is an opportunity to use real-world data to uncover important insights about crime in Atlanta. By visualizing this data, you'll not only sharpen your skills with Matplotlib, but also gain a deeper understanding of the patterns and trends that affect communities in the city. Let’s get started and see what the data reveals about crime in Atlanta.

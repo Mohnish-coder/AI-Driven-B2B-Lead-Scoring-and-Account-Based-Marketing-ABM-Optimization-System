@@ -1,0 +1,12 @@
+Understanding Distribution plots
+
+What is Histogram?
+A histogram is a crucial and frequently utilized tool in data visualization, which offers a graphical representation of how data is distributed across various intervals, or 'bins'. This type of graph helps us visualize the spread of data points, showing us patterns, outliers, and trends by representing the frequency of data points within each bin with vertical bars. Histograms are invaluable when it comes to examining the distribution of various quantitative variables such as exam scores or sales revenue, providing key insights into the data's central tendencies, variability, and skewness.
+
+In histograms, bins represent ranges of values. Changing the number of bins alters how we interpret the data's distribution.
+
+Color-Coding by Airline: If your data includes airlines, color-code the histograms for an easy comparison of delay patterns between them.
+
+Overlaying Histograms: Place histograms on the same plot to directly compare distributions across categories.
+
+Using a Logarithmic Scale: Applying a log scale can make vastly different delay times easier to visualize and compare.

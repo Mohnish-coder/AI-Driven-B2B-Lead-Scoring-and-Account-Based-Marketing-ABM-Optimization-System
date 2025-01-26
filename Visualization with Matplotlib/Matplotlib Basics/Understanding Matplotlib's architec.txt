@@ -1,0 +1,24 @@
+Understanding Matplotlib's architecture
+
+Data visualization is a crucial skill in data analysis, allowing us to understand trends, patterns, and insights from data. This lab introduces the fundamentals of data visualization with a focus on Matplotlib, a popular Python library for creating a wide range of static, animated, and interactive visualizations.
+
+We'll start by discussing the importance of data visualization and how it helps in making data-driven decisions. Then, we'll dive into the basics of Matplotlib, exploring how it can be used to transform raw data into informative plots and charts.
+
+
+What is Matplotlib?
+Matplotlib is versatile, allowing us to create a variety of plot types. This section introduces the basics of creating plots with Matplotlib, including:
+Line Plots
+Bar Charts
+Pie Charts
+Scatter Plots
+
+Explain Object-Oriented Nature of Matplotlib?
+Matplotlib is fundamentally built on an object-oriented programming (OOP) model. This means that in Matplotlib, almost everything you see on a plot is an object. Each object can be manipulated independently to control different aspects of the visualization.
+
+explain main two component?
+The Two Main Components: Figure and Axes
+Figure Object: The Figure object can be thought of as a canvas or a container that holds all elements of the plot. It includes everything you see on the page – the plot, the axes, labels, titles, and other elements. When you create a plot, you start by creating a Figure object.
+Axes Object: The Axes object refers to an individual plot or graph. A Figure can contain multiple Axes. Each Axes has two (or three in the case of 3D) Axis objects which take care of the data limits. The Axes object is where most of the plotting happens: lines, markers, texts, etc.
+
+Why the Object-Oriented Approach?
+The object-oriented approach provides a more flexible and powerful way of creating visualizations in Matplotlib. It allows for more control and customization over the different elements of the plots. This approach is particularly beneficial when working with multiple plots, complex layouts, or when you need fine-grained control over the visualization elements.

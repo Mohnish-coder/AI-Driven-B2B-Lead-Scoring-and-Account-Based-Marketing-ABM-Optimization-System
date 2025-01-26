@@ -1,0 +1,10 @@
+Mapping COVID-19 Crisis Through Visualization
+
+By now, it is no secret that data visualization is a crucial skill in understanding complex datasets, allowing you to identify patterns and gain insights that might be hidden in raw data. What's more? In today’s world, especially with events like the COVID-19 pandemic, the ability to communicate these insights clearly can influence decisions that impact millions of lives.
+
+In this project, we will use COVID-19 data to sharpen your visualization skills. By focusing on plotting styles and customization, you will learn how to transform basic plots into polished, insightful graphics that effectively communicate information. Through this hands-on project, you will explore different ways to style plots, adjust colors, customize axes, and apply various techniques to enhance the readability and aesthetics of your visualizations.
+
+Beyond technical proficiency, you’ll learn how to choose the right type of plot for different data situations, ensuring clarity and precision in your analysis. Not only will you gain technical proficiency, but you'll also develop the ability to create visualizations that can tell stories from data—stories that matter.
+
+Plotting Basic plots
+In this section, we will start easy by using basic plotting styles to visualize data from the provided dataset. Follow the instructions for each question and use Matplotlib functions to customize your plots with titles, labels, and legends.

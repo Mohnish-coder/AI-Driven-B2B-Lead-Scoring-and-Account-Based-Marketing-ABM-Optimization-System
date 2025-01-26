@@ -1,0 +1,12 @@
+Distribution plots with Black Friday dataset
+
+A great way to get started exploring a single variable is with the histogram. A histogram divides the variable into bins, counts the data points in each bin, and shows the bins on the x-axis and the counts on the y-axis. In our case, the bins will represent the range of purchase amounts, and the count will be the number of purchases falling into that range. The binwidth is the most important parameter for a histogram and we should always try out a few different values of binwidth to select the best one for our data.
+
+Histograms for the Black Friday Sales Dataset
+
+Create a histogram using Matplot's subplot function to capture the fig and ax objects for Purchase column of df dataframe. Set the number of bins to 20 and specify the edge color as black.
+
+Optimal binwidth
+The only way to figure out an optimal binwidth is to try out multiple values!
+The selection of bin width is a crucial factor that substantially influences the appearance of the plot. Using smaller bin widths might lead to an overly congested plot, whereas larger bin widths could mask subtle details in the data. Although Matplotlib can automatically determine a suitable bin width, I prefer to manually set this parameter after experimenting with various values. Ultimately, there isn't a universally correct or incorrect choice for bin width. It's advisable to experiment with different options to find the one that most suitably represents your specific dataset.
+

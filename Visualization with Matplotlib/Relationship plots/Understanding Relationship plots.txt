@@ -1,0 +1,12 @@
+Understanding Relationship plots
+
+What are the different types of Relationship Plots?
+Different Types of Relationship Plots:
+Line Plots: Best suited for showing trends over time or continuous data. Line plots can be used to infer the relationship between variables and to forecast future trends.
+Scatter Plots: Ideal for visualizing the relationship between two continuous variables. They help in identifying patterns, trends, and possible outliers in data.
+
+
+Using a line plot for the given dataset, might not ne the best choice, give the reason?
+Nature of the Data: Line plots are ideal for continuous data, especially where each data point is related to the next one, like time series data. In this scenario, the 'girls' and 'boys' data points are distinct and independent of each other, and the 'promedio' values likely represent categories or discrete intervals rather than a continuous sequence. A line connecting these points would imply a continuity or relationship between them that doesn't exist.
+
+Misleading Interpretation: Using a line plot could suggest that there is a direct progression or trend from one point to the next, which can be misleading.

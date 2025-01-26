@@ -1,0 +1,4 @@
+Visualizing Winter Olympic Glory
+
+This project examines the fascinating world of the Winter Olympics, offering a visual journey through the achievements of athletes across different sports and age groups. By exploring the dataset, you'll uncover trends in medal distribution over the years, spot which sports attract the most competitors, and see how age influences participation. Whether you're a sports enthusiast or data lover, this project provides a captivating way to explore Olympic glory.
+
